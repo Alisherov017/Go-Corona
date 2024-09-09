@@ -476,7 +476,7 @@ body {
 .media-stay-safe__image {
   display: inline-block;
   position: relative;
-  width: 61.5%
+  width: 61.5%;
 }
 .media-stay-safe__image img {
   position: relative;
@@ -517,13 +517,16 @@ body {
   }
 }
 @media (max-width: 767.98px) {
-  .stay-safe__container{
+  .stay-safe__container {
     flex-direction: column-reverse;
   }
-  .stay-safe__content{
+  .stay-safe__content {
     margin: 0px 0px 30px 0px;
   }
-  .media-stay-safe{
+}
+
+@media (max-width: 479.98px) {
+  .media-stay-safe {
     width: 290px;
   }
 }
